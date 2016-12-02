@@ -9,15 +9,15 @@ For example highcharts.js or highstock.js and don't forget modules like gauge.js
 You need to install PhantomJS, a headless browser based on WebKit.
 For installation details, see http://phantomjs.org/download.html
 
-**note** 
+**note**
 The Highcharts files are subjected to the Highcharts License.
 #Example usage#
 ####Command line
-	phantomjs highcharts-convert.js -infile options1.json -outfile chart1.png -scale 2.5 -width 300 -constr Chart -callback callback.js
+	phantomjs highcharts-convert.js -infile example1.json -outfile chart.png -scale 2.5 -width 600
+	phantomjs highcharts-convert.js -infile example2.json -outfile chart.png -scale 2.5 -width 600
 
 ####Run PhantomJS as HTTP server
 	phantomjs highcharts-convert.js -host 127.0.0.1 -port 3003
-
 
 #Description of command line parameters#
 
